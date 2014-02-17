@@ -36,6 +36,10 @@ var tests = [
         defaultLog("set gauge 'gg' to " + tmp)
         m.setGauge("gg", tmp);
 
+        tmp = Math.random() * 1000;
+        defaultLog("set gauge 'gg' to " + tmp)
+        m.setGauge("gg", tmp);
+
         setTimeout(function () {
             defaultLog("stop timer1 after ~750ms");
             m.stopTimer("timer1");
