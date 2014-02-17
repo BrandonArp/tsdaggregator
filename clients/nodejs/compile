@@ -1,0 +1,2 @@
+#!/bin/bash
+tsc tsd-metrics-client.ts --outDir lib --module commonjs
