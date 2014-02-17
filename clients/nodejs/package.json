@@ -1,0 +1,44 @@
+{
+    "name": "tsd-metrics-client",
+    "preferGlobal": false,
+    "version": "2.0.3",
+    "author": "Mohammed Kamel <cyber.maak@gmail.com>",
+    "description": "Node JS class for publishing metrics as  time series data (TSD). (2c)",
+    "contributors": [
+        {
+            "name": "Mohammed Kamel",
+            "email": "cyber.maak@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "main": "./lib/tsd-metrics-client",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:BrandonArp/tsdaggregator.git"
+    },
+    "directories": {
+        "test": "test",
+        "lib": "lib"
+    },
+    "keywords": [
+        "tsd",
+        "aggregator",
+        "metrics",
+        "client",
+        "2c"
+    ],
+    "dependencies": {
+        "log4js": "*"
+    },
+    "analyze": false,
+    "devDependencies": {
+        "colors": "*",
+        "typescript": "0.9.1-1"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
